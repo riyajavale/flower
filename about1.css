@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url('C:\Users\admin\Desktop\divya riya\rose.jpg');
+            background-size: cover;  /* Covers entire screen */
+            background-repeat: no-repeat;  /* No repeating */
+            background-position: center;  /* Center the image */
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Page</h1>
+</body>
+</html>

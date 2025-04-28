@@ -1,0 +1,120 @@
+
+*{
+    
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'segoe UL',sans-serif;
+}
+
+body{
+    line-height:1.6;
+    background-color:#fffafc;
+        color:#333;
+    }
+
+    /*hero section */
+    .hero{
+        background-image:
+        url('C:\Users\admin\Pictures\singer\Alpenrose.jpg');
+        background-size:cover;
+        background-position:center;
+        height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        color:white;
+        position:relative;
+        }
+        
+        .hero:after{
+            content:"";
+            position:absolute;
+            top:0;left:0;
+            width:100%;height:100%;
+            background:rgba(0,0,0,0,4);
+                 }
+        
+        .hero-content{
+            position:relative;
+            z-index:2;
+        }
+
+        .hero h1{
+            font-size:4rem;
+            margin-bottom:10px;
+	color:#8e44ad;
+        }
+
+        .hero p{
+            font-size:1.5rem;
+            margin-bottom:20px;
+	color:darkpink;
+        }
+
+       .btn{
+        background-color:#ff66a3;
+        padding:12px 24px;
+        color:white;
+        text-decoration:none;
+        border-radius:25px;
+        font-weight:bold;
+        transition:background 0.3s ease;
+       }
+
+       .btn{
+        background-color:#e05592;
+       }
+       
+       /*Featured Bouquets */
+       .featured{
+        padding:60px 20px;
+        text-align:center;
+        background-color:#fff0f5;
+       }
+
+       .featured h2{
+        font-size:2.5rem;
+        margin-bottom:40px;
+        color:#d63384;
+       }
+
+       .bouquet-card{
+        margin-left: 30%;
+        background-color:white;
+        border-radius:12px;
+        box-shadow:0 2px 12px rgba(0,0,0,0,1);
+        padding:15px;
+        width:490px;
+        transition:transform 0.3s ease;
+       }
+
+       .bouquet-card:hover{
+        transform:scale(1.05);
+       }
+       
+       .bouquet-card img{ 
+        width:100%;
+        border-radius:10px;
+       }
+
+       .bouquet-card h3{
+        margin-top:15px;
+        font-size:1.2rem;
+        color:#e63987;
+       }
+
+       .bouquet-card p{
+        font-weight:bold;
+        color:#555;
+       }
+
+
+       /*Footer */
+       footer {
+        text-align:center;
+        padding:20px;
+        background-color:#ffe4ec;
+        color:#555;
+       }
